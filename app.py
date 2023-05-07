@@ -87,8 +87,9 @@ def index():
 
             # Storing all the data in the MongoDB
             # Connecting to the mongo
-            client = pymongo.MongoClient(
-                "mongodb+srv://user1:user1@cluster0.zs8zanp.mongodb.net/?retryWrites=true&w=majority")
+            # Please add your cluster link
+            # client = pymongo.MongoClient(
+                # "mongodb+srv://user1:user1@cluster0.zs8zanp.mongodb.net/?retryWrites=true&w=majority")
 
             # Creating a databse named review_scrapped_data
             db = client["review_scrapped_data"]
