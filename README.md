@@ -14,12 +14,13 @@ To run this project locally, you need to have Python installed on your system. Y
 # How to use
 To use this application, follow these steps:
 
-1. Enter the search key for the product you want to extract reviews for.
-2. Click on the "Search" button.
-3. The application will extract the reviews for the corresponding product and display them on the results page.
-4. Technologies Used
+1. First add your cluster link
+2. Enter the search key for the product you want to extract reviews for.
+3. Click on the "Search" button.
+4. The application will extract the reviews for the corresponding product and display them on the results page.
 
-# This project uses the following technologies:
+# Technologies Used
+This project uses the following technologies:
 - Python
 - Flask
 - Beautiful Soup
