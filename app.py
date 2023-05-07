@@ -89,7 +89,7 @@ def index():
             # Connecting to the mongo
             # Please add your cluster link
             # client = pymongo.MongoClient(
-                # "mongodb+srv://user1:user1@cluster0.zs8zanp.mongodb.net/?retryWrites=true&w=majority")
+                # "mongodb+srv://user1:<password>@cluster0.zs8zanp.mongodb.net/?retryWrites=true&w=majority")
 
             # Creating a databse named review_scrapped_data
             db = client["review_scrapped_data"]
